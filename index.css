@@ -4,21 +4,23 @@
   box-sizing: border-box;
 }
 :root {
-  --blue1: hsl(193, 85%, 58%);;
-  --blue2: hsl(220, 50%, 28%);
-  --blue3: hsl(197, 23%, 34%);
-  --gold:hsl(30, 77%, 71%);
-  --red: oklch(66.09% 0.211 18.78);
-  --white: hsl(0, 0%, 100%);
-  --gray: hsl(0, 5%, 78%);
-  --fancy-gradient: linear-gradient(to right, var(--blue3), var(--gold));
+  --blue: oklch(70% 0.131 236.12);
+  --darkblue: oklch(35% 0.059 236.12);
+  --gold:oklch(0.81 0.1 65.68);
+  --mint:oklch(70% 0.1 181);
+  --white: oklch(1 0 89.88);
+  --gray: oklch(0.83 0.01 17.29);
+  --bg_transparent:var(--bg_transparent);
+  --fancy-gradient: linear-gradient(300deg, var(--blue) 0%, var(--gold) 60%, var(--darkblue) 100%);
+  color-scheme: light dark;
 }
 body {
-  font-family: system-ui;
-  color: var(--blue3);
+  font-family: system-ui, sans-serif;
+  color: var(--darkblue);
 }
 header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
   justify-content: space-between;
@@ -26,7 +28,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1000; 
-  background-color: rgba(255, 255, 255, .4);
+  background-color: var(--bg_transparent);
 }
 nav .nav-link {
   display: flex;
@@ -36,7 +38,8 @@ nav .nav-link {
 }
 nav .nav-link a {
   text-decoration: none;
-  color: var(--blue3);
+  color: var(--darkblue);
+  font-size: 1.2rem;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -46,11 +49,17 @@ nav .nav-link a:hover {
   background-clip: text;
   transition: color 0.3s, text-shadow 0.3s;
 }
+nav .nav-link a:active {
+  color: var(--gold);
+}
 h1, h2 {
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 h2 {
   margin: 2rem;
+  justify-content: center;
+  text-align: center;
 }
 h3 {
   margin-bottom: .8rem;
@@ -136,7 +145,7 @@ footer {
   justify-content: center;
   height: 1.5rem;
   font-size: .9rem;
-  background-color: rgba(255, 255, 255, .4);;
+  background-color:var(--bg_transparent);
 }
 
 @media (min-width: 768px) {
