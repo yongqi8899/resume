@@ -1,0 +1,14 @@
+{
+  "header": {
+    "login": "login",
+    "register": "register",
+    "logout": "logout",
+    "profile": "profile",
+    "navLinks": {
+      "home":"Startseite",
+      "skills": "Fähigkeiten",
+      "projects": "Projekte",
+      "contact": "Kontakt"
+    }
+  }
+}

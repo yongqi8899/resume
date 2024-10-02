@@ -1,0 +1,14 @@
+{
+  "header": {
+    "login": "登陆",
+    "register": "注册",
+    "logout": "登出",
+    "profile": "个人资料",
+    "navLinks": {
+      "home":"首页",
+      "skills": "技能",
+      "projects": "项目",
+      "contact": "联系"
+    }
+  }
+}
