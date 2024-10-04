@@ -33,6 +33,7 @@ import portfolio from "./portfolio.gif"
 import immobilien from "./company/immobilien.png";
 import good_feeling from "./company/good_feeling.png";
 import yz from "./company/yz.png";
+import me from "./me.svg"
 
 export {
   backend,
@@ -67,4 +68,5 @@ export {
   yz,
   internet,
   rotation,
+  me
 };

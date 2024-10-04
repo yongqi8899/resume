@@ -4,14 +4,18 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { useTranslation } from "react-i18next";
+import { IoEarthOutline } from "react-icons/io5";
 
 const ContactForm = () => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col justify-center w-full">
       <div className="flex flex-col ">
-        <p className={styles.sectionSubText}>{t('contact.getincontact')}</p>
-        <h3 className={styles.sectionHeadText}>{t('contact.contact')}</h3>
+        <p className={styles.sectionSubText}>{t("contact.getincontact")}</p>
+        <div className="flex align-bottom">
+          <h3 className={styles.sectionHeadText}>{t("contact.contact")}</h3>
+          <IoEarthOutline size={20} />
+        </div>
       </div>
       <address>
         <a href="mailto:yz.zhang.de@gmail.com" target="_blank">
