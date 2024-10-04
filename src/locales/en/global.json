@@ -25,5 +25,24 @@
     "summary": "I build full-stack web applications and design user interfaces.",
     "myCV":"My CV",
     "description": "I am a passionate full-stack developer dedicated to creating captivating web experiences. With expertise in JavaScript, TypeScript, and frameworks like React, Vue, and Nuxt, I craft engaging and user-friendly interfaces. When it comes to 3D, I bring magic to life using Three.js. On the backend, I rely on powerful technologies such as Node.js, Express.js, SQL, and MongoDB. As a lifelong learner, I am always eager to explore new technologies and creative approaches. My focus is on frontend development, where I strive to deliver elegant and functional solutions. Let’s collaborate and bring your digital visions to life—with a positive and inspiring approach!"
+  },
+  "projects": {
+    "projects" :"Projects.",
+    "MyWork" :"MY WORK",
+    "summary": "Following projects showcase my skills and experience through real-world examples of my work, each project is briefly described with links to code repositories and live demos, reflecting my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "portfolio":
+    "This is my portfolio website, built using React and Three.js. It showcases my skills and expertise in web development.",
+    "printmystride":
+      "PrintMyStride is an innovative 3D printing shoe store that offers custom footwear tailored to each customer’s unique foot shape. After making a purchase, customers receive a foot impression, which is then used by the store to create personalized shoes using advanced 3D printing technology. This project is a full-stack application with the backend built using Express and the frontend developed with React.",
+      "printmystride CMS":
+      "PrintMyStride CMS is the content management system designed to support PrintMyStride. It allows for the management of the store's operations, including creating, reading, updating, and deleting (CRUD) information related to products, orders, and customer data. This CMS ensures efficient and streamlined management of the custom shoe-making process.",
+      "3D Map":
+      "The 3D Interactive Flight Map is a dynamic, real-time visualization tool designed for large-screen displays, showcasing flight routes across China. Featuring an immersive 3D map, the system allows users to click on any airport or location to instantly display all active flights departing from at that point. Flight paths are smoothly animated across the map, providing a clear and engaging view of air traffic. This interactive tool is ideal for aviation monitoring, control centers, or public information displays, offering a user-friendly experience and comprehensive insights into China's airspace and flight patterns.",
+      "CMS for IT Deutschland Immobilien":
+      "Project CMS for IT Deutschland Immobilien is a specialized digital platform designed to centralize and optimize real estate management in Germany. It streamlines property management by consolidating data, documents, and processes into a user-friendly system. Key features include comprehensive Property and Tenant Management, Financial Tracking, and secure Document Management. The platform ensures compliance with local regulations through automated reporting and offers real-time insights into asset performance. This CMS enhances operational efficiency, reduces costs, and improves service quality, making it an essential tool for managing residential, commercial, and industrial real estate portfolios.",
+      "Canine Cuisine":
+      "This project highlights UI/UX design, leveraging the psychological principle that eye direction in images can subtly influence where users focus their attention. Scientific studies show that when a person in an image looks in a certain direction, viewers are subconsciously guided to follow that gaze. This concept is often used in marketing to direct attention to products or key information. Inspired by this, the website design incorporates visual elements that guide users naturally. The focus is on optimizing user interaction, alongside performance enhancements such as route lazy loading, caching with keep-alive, and image lazy loading, creating a seamless browsing experience.",
+      "RhythmWave 3D":
+      "This website is my first venture into the world of 3D web design using Three.js, reflecting the growing trend of 3D websites. It's a music-focused platform where the visual experience is as dynamic as the audio. The highlight of the site is a wave animation that moves in sync with the rhythm of the music, creating an immersive experience where sound and visuals blend seamlessly. This project showcases the potential of 3D elements in web design, adding a unique, interactive layer to the user experience."
   }
 }

@@ -18,14 +18,29 @@
   "home": {
     "iAm": "Hi, ich bin",
     "name": "Yongqi",
-    "roles": [
-      "Full Stack Developer",
-      "UI/UX Designer"
-    ],
+    "roles": ["Full Stack Developer", "UI/UX Designer"],
     "summary": "Ich entwickle Full-Stack-Webanwendungen und gestalte Benutzeroberflächen.",
-    "myCV":"Mein Lebenslauf",
-    "description": 
-      "Ich bin ein leidenschaftlicher Full-Stack-Entwickler, der sich darauf spezialisiert hat, fesselnde Web-Erlebnisse zu schaffen. Mit Fachkenntnissen in JavaScript, TypeScript und Frameworks wie React, Vue und Nuxt gestalte ich ansprechende und benutzerfreundliche Oberflächen. Wenn es um 3D geht, lasse ich mit Three.js Magie entstehen. Auf der Backend-Seite verlasse ich mich auf leistungsstarke Technologien wie Node.js, Express.js, SQL und MongoDB."
-    
+    "myCV": "Mein Lebenslauf",
+    "description": "Ich bin ein leidenschaftlicher Full-Stack-Entwickler, der sich darauf spezialisiert hat, fesselnde Web-Erlebnisse zu schaffen. Mit Fachkenntnissen in JavaScript, TypeScript und Frameworks wie React, Vue und Nuxt gestalte ich ansprechende und benutzerfreundliche Oberflächen. Wenn es um 3D geht, lasse ich mit Three.js Magie entstehen. Auf der Backend-Seite verlasse ich mich auf leistungsstarke Technologien wie Node.js, Express.js, SQL und MongoDB."
+  },
+  "projects": {
+    "projects" :"Projekte.",
+    "MyWork" :"MEINE ARBEIT",
+    "summary": "Die folgenden Projekte zeigen meine Fähigkeiten und Erfahrungen anhand von realen Beispielen meiner Arbeit. Jedes Projekt wird kurz beschrieben und enthält Links zu Code-Repositories und Live-Demos, die meine Fähigkeit zur Lösung komplexer Probleme, zum Arbeiten mit verschiedenen Technologien und zum effektiven Projektmanagement widerspiegeln.",
+
+    "portfolio":
+    "Dies ist meine Portfolio-Website, die mit React und Three.js erstellt wurde. Sie zeigt meine Fähigkeiten und Expertise in der Webentwicklung.",
+    "printmystride":
+      "PrintMyStride ist ein innovativer 3D-Druck-Schuhladen, der maßgeschneiderte Schuhe anbietet, die auf die einzigartige Fußform jedes Kunden zugeschnitten sind. Nach dem Kauf erhalten die Kunden einen Fußabdruck, der dann vom Geschäft verwendet wird, um personalisierte Schuhe mit modernster 3D-Drucktechnologie herzustellen. Dieses Projekt ist eine Full-Stack-Anwendung, bei der das Backend mit Express und das Frontend mit React entwickelt wurde.",
+      "printmystride CMS":
+      "PrintMyStride CMS ist das Content-Management-System, das PrintMyStride unterstützt. Es ermöglicht das Management der Geschäftsvorgänge, einschließlich Erstellen, Lesen, Aktualisieren und Löschen (CRUD) von Informationen zu Produkten, Bestellungen und Kundendaten. Dieses CMS gewährleistet eine effiziente und reibungslose Verwaltung des Prozesses zur Herstellung von maßgeschneiderten Schuhen.",
+      "3D Map":
+      "Die 3D Interactive Flight Map ist ein dynamisches, Echtzeit-Visualisierungstool, das für Großbildschirme entwickelt wurde und Flugrouten in ganz China zeigt. Mit einer immersiven 3D-Karte können Benutzer auf jeden Flughafen oder Standort klicken, um sofort alle aktiven Flüge anzuzeigen, die von diesem Punkt abfliegen. Flugrouten werden sanft über die Karte animiert und bieten einen klaren und fesselnden Blick auf den Luftverkehr. Dieses interaktive Tool eignet sich ideal für die Luftüberwachung, Kontrollzentren oder öffentliche Informationsdisplays und bietet eine benutzerfreundliche Erfahrung sowie umfassende Einblicke in den chinesischen Luftraum und die Flugmuster.",
+      "CMS for IT Deutschland Immobilien":
+      "Das Projekt CMS for IT Deutschland Immobilien ist eine spezialisierte digitale Plattform, die entwickelt wurde, um das Immobilienmanagement in Deutschland zu zentralisieren und zu optimieren. Es vereinfacht das Immobilienmanagement, indem es Daten, Dokumente und Prozesse in ein benutzerfreundliches System integriert. Zu den wichtigsten Funktionen gehören umfassendes Property und Tenant Management, Financial Tracking und sicheres Dokumentenmanagement. Die Plattform gewährleistet die Einhaltung lokaler Vorschriften durch automatisierte Berichterstattung und bietet Echtzeit-Einblicke in die Leistung der Vermögenswerte. Dieses CMS verbessert die Betriebseffizienz, senkt die Kosten und verbessert die Servicequalität und ist ein unverzichtbares Werkzeug zur Verwaltung von Wohn-, Gewerbe- und Industrieimmobilienportfolios.",
+      "Canine Cuisine":
+      "Dieses Projekt hebt das UI/UX-Design hervor und nutzt das psychologische Prinzip, dass die Blickrichtung in Bildern subtil beeinflussen kann, wohin Benutzer ihre Aufmerksamkeit richten. Wissenschaftliche Studien zeigen, dass Personen in einem Bild, die in eine bestimmte Richtung schauen, die Betrachter unbewusst dazu führen, diesem Blick zu folgen. Dieses Konzept wird häufig im Marketing verwendet, um die Aufmerksamkeit auf Produkte oder wichtige Informationen zu lenken. Inspiriert davon integriert das Webdesign visuelle Elemente, die Benutzer auf natürliche Weise führen. Der Schwerpunkt liegt auf der Optimierung der Benutzerinteraktion sowie auf Leistungsverbesserungen wie Routen-Lazy-Loading, Caching mit Keep-Alive und Bild-Lazy-Loading, um ein nahtloses Browsererlebnis zu schaffen.",
+      "RhythmWave 3D":
+      "Diese Website ist mein erster Ausflug in die Welt des 3D-Webdesigns mit Three.js und spiegelt den wachsenden Trend von 3D-Websites wider. Es handelt sich um eine musikorientierte Plattform, bei der das visuelle Erlebnis genauso dynamisch ist wie der Ton. Das Highlight der Website ist eine Wellenanimation, die synchron mit dem Rhythmus der Musik bewegt wird und ein immersives Erlebnis schafft, bei dem Klang und visuelle Elemente nahtlos ineinander übergehen. Dieses Projekt zeigt das Potenzial von 3D-Elementen im Webdesign und fügt der Benutzererfahrung eine einzigartige, interaktive Ebene hinzu."
   }
 }
