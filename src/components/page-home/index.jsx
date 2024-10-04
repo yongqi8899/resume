@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { styles } from "@/styles";
 import ComMe from "@/components/page-home/cpns/ComMe.jsx";
 
-import { bio } from "@/constants";
 import Typewriter from "typewriter-effect";
 import { rotation } from "@/assets";
 import { fadeIn } from "@/utils/motion.js";
@@ -34,17 +33,14 @@ const Hero = () => {
             />
           </span>
         </div>
-        {bio.description.map((des) => {
-          return (
-            <p
-              variants={fadeIn("", "", 0.1, 1)}
-              className="mt-4 max-w-3xl leading-[1.5rem]"
-              key={des}
-            >
-              {t("home.description")}
-            </p>
-          );
-        })}
+        {
+          <p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 max-w-3xl leading-[1.5rem]"
+          >
+            {t("home.description")}
+          </p>
+        }
         <div className="mt-10 ">
           <Link
             to="https://drive.google.com/file/d/1GiFE2E8CqymL9VI-S9CReX6XQD7e8ou3/view?usp=drive_link"

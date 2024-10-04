@@ -4,7 +4,7 @@ import { memo } from "react";
 const LogoSelector = memo(() => {
   return (
     <NavLink to="/">
-      <h1 className="font-redressed">Yongqi Zhang</h1>
+      <h1 className=" font-redressed">Yongqi Zhang</h1>
     </NavLink>
   );
 });

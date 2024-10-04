@@ -17,7 +17,7 @@ const RootLayout = memo(() => {
       </div>
 
       <ToastContainer position="top-right" autoClose={1500} theme="light" />
-      <div className="container mt-20">
+      <div className="container m-auto mt-20">
         <Outlet />
       </div>
       <Footer />
