@@ -14,5 +14,18 @@
   "contact": {
     "getincontact": "联系我们",
     "contact": "联系."
+  },
+  "home": {
+    "iAm": "嗨, 我是",
+    "name": "永其",
+    "roles": [
+      "全栈开发工程师",
+      "UI/UX 设计师"
+    ],
+    "summary": "我构建全栈 Web 应用程序并设计用户界面。",
+    "myCV":"我的简历",
+    "description": 
+      "我是一名对全栈开发充满热情的工程师，致力于创建引人入胜的 Web 体验。凭借对 JavaScript、TypeScript 和 React、Vue、Nuxt 等框架的专业知识，我打造引人入胜且用户友好的界面。在 3D 方面，我使用 Three.js 将魔法变为现实。在后端，我依赖于强大的技术，如 Node.js、Express.js、SQL 和 MongoDB。"
+    
   }
 }

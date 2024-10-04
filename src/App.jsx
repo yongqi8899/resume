@@ -2,8 +2,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { memo, lazy, Suspense } from "react";
 import { RootLayout } from "@/layout";
 const ErrorPage = lazy(() => import("@/pages/error-page"));
-const Home = lazy(() => import("@/pages/home"));
-const Contact = lazy(() => import("@/pages/contact"));
+const Home = lazy(() => import("@/components/page-home/index.jsx"));
+const Contact = lazy(() => import("@/components/page-contact/index.jsx"));
 const Skills = lazy(() => import("@/pages/skills"));
 const Projects = lazy(() => import("@/pages/projects"));
 
