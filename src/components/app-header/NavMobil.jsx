@@ -14,25 +14,33 @@ const NavMobil = memo(() => {
       <div className="flex-1 text-2xl">
         <LogoSelector />
       </div>
-      <LanguageSelector />
-      <ThemaSelector />
-      <div className="z-20 ">
-        <Hamburger
-          size={34}
-          toggled={isOpen}
-          toggle={setOpen}
-          direction="left"
-          duration={0.9}
-        />
-      </div>
-      {isOpen && (
-        <div
-          className="fixed top-0 left-0 flex flex-col items-center justify-center w-screen h-full gap-8 text-xl text-center z-199 bg-neutral"
-          onClick={() => setOpen(false)}
-        >
-          <NavSelector />
+      <div>
+        <ul className="gap-8 navbar">
+          <li>
+            <LanguageSelector />
+          </li>
+          <li>
+            <ThemaSelector />
+          </li>
+        </ul>
+        <div className="z-20 ">
+          <Hamburger
+            size={34}
+            toggled={isOpen}
+            toggle={setOpen}
+            direction="left"
+            duration={0.9}
+          />
         </div>
-      )}
+        {isOpen && (
+          <div
+            className="fixed top-0 left-0 flex flex-col items-center justify-center w-screen h-full gap-8 text-xl text-center z-199 bg-neutral"
+            onClick={() => setOpen(false)}
+          >
+            <NavSelector />
+          </div>
+        )}
+      </div>
     </header>
   );
 });

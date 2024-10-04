@@ -10,5 +10,9 @@
       "projects": "projects",
       "contact": "contact"
     }
+  },
+  "contact": {
+    "getincontact": "GET IN TOUCH",
+    "contact": "Contakt."
   }
 }

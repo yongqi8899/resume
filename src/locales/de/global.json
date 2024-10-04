@@ -5,10 +5,14 @@
     "logout": "logout",
     "profile": "profile",
     "navLinks": {
-      "home":"Startseite",
+      "home": "Startseite",
       "skills": "Fähigkeiten",
       "projects": "Projekte",
       "contact": "Kontakt"
     }
+  },
+  "contact": {
+    "getincontact": "Kontaktieren Sie uns",
+    "contact": "Kontakt."
   }
 }

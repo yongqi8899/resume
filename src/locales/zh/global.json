@@ -10,5 +10,9 @@
       "projects": "项目",
       "contact": "联系"
     }
+  },
+  "contact": {
+    "getincontact": "联系我们",
+    "contact": "联系."
   }
 }
