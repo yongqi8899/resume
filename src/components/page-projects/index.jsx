@@ -2,16 +2,12 @@ import { Tilt } from "react-tilt";
 import { useTranslation } from "react-i18next";
 
 import { styles } from "@/styles";
-import { github, internet } from "@/assets";
+import { BsGithub } from "react-icons/bs";
+import { IoEarthOutline } from "react-icons/io5";
+
 import { projects } from "@/constants";
 
-const ProjectCard = ({
-  name,
-  tags,
-  image,
-  source_code_link,
-  deploy_link,
-}) => {
+const ProjectCard = ({ name, tags, image, source_code_link, deploy_link }) => {
   const { t } = useTranslation();
   return (
     <Tilt
@@ -30,11 +26,7 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
             >
-              <img
-                src={github}
-                alt="source code"
-                className="object-contain w-1/2 h-1/2"
-              />
+              <BsGithub size={40} />
             </div>
           )}
           {deploy_link && (
@@ -42,11 +34,7 @@ const ProjectCard = ({
               onClick={() => window.open(deploy_link, "_blank")}
               className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
             >
-              <img
-                src={internet}
-                alt="source code"
-                className="object-contain w-1/2 h-1/2"
-              />
+              <IoEarthOutline size={40} />
             </div>
           )}
         </div>
@@ -73,15 +61,14 @@ const Projects = () => {
   return (
     <>
       <div>
-        <p className={`${styles.sectionSubText} `}>  {t("projects.MyWork")}</p>
-        <h2 className={`${styles.sectionHeadText}`}>{t("projects.projects")}</h2>
+        <p className={`${styles.sectionSubText} `}> {t("projects.MyWork")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>
+          {t("projects.projects")}
+        </h2>
       </div>
 
       <div className="flex w-full">
-        <p
-        >
-          {t("projects.summary")}
-        </p>
+        <p>{t("projects.summary")}</p>
       </div>
 
       <div className="flex flex-wrap mt-20 gap-7">

@@ -1,8 +1,4 @@
 import {
-  backend,
-  creator,
-  web,
-  mobile,
   immobilien,
   good_feeling,
   yz,
@@ -37,62 +33,6 @@ const bio = {
     "https://drive.google.com/file/d/164t4dXwmEOrEOInZ2UH_yI_gPy7otgui/view",
   linkedin: "https://www.linkedin.com/in/yongqi-zhang/",
 };
-
-// const technologies = [
-//   {
-//     name: "HTML 5",
-//     icon: html,
-//   },
-//   {
-//     name: "CSS 3",
-//     icon: css,
-//   },
-//   {
-//     name: "JavaScript",
-//     icon: javascript,
-//   },
-//   {
-//     name: "TypeScript",
-//     icon: typescript,
-//   },
-//   {
-//     name: "React JS",
-//     icon: reactjs,
-//   },
-//   {
-//     name: "Vue JS",
-//     icon: vue,
-//   },
-//   {
-//     name: "Nuxt JS",
-//     icon: nuxt,
-//   },
-//   {
-//     name: "Tailwind CSS",
-//     icon: tailwind,
-//   },
-
-//   {
-//     name: "Node JS",
-//     icon: nodejs,
-//   },
-//   {
-//     name: "MongoDB",
-//     icon: mongodb,
-//   },
-//   {
-//     name: "Three JS",
-//     icon: threejs,
-//   },
-//   {
-//     name: "git",
-//     icon: git,
-//   },
-//   {
-//     name: "figma",
-//     icon: figma,
-//   },
-// ];
 
 const technologies = {
   frontendTech: [

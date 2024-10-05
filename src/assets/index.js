@@ -1,10 +1,3 @@
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import internet from "./internet.svg";
 import rotation from "./rotation.svg";
 import dog_food from "./dog_food.gif";
 import it from "./it.gif";
@@ -18,12 +11,6 @@ import yz from "./company/yz.png";
 import me from "./me.svg"
 
 export {
-  backend,
-  creator,
-  mobile,
-  web,
-  menu,
-  close,
   dog_food,
   it,
   music,
@@ -33,7 +20,6 @@ export {
   good_feeling,
   portfolio,
   yz,
-  internet,
   rotation,
   me
 };
