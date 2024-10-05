@@ -23,20 +23,21 @@ const Tech = () => (
                 scale: 1,
                 speed: 45,
               }}
-              className="bg-tertiary rounded-[50px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+              className="bg-neutral rounded-[20px] py-5 px-12 min-h-[400px] flex justify-evenly items-center flex-col"
             >
-              <h2 className="text-2xl font-bold text-center text-primary">
+              <h2 className="text-2xl font-bold">
                 {key}
               </h2>{" "}
-              {/* {key} */}
               <div className="flex flex-wrap justify-center gap-4">
                 {technologies[key].map((tech) => (
+                  <div className="bg-white">
                   <img
                     src={tech.icon}
                     alt={tech.title}
                     key={tech.title}
                     className="object-contain w-16 h-16"
                   />
+                  </div>
                 ))}
               </div>
             </div>
