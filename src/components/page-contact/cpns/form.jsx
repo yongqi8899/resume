@@ -19,15 +19,15 @@ const ContactForm = () => {
       </div>
       <address>
         <a href="mailto:yz.zhang.de@gmail.com" target="_blank">
-          <div className="flex items-center gap-3 ">
-            <MdEmail /> yz.zhang.de@gmail.com
+          <div className="flex items-center gap-3 mt-6">
+            <MdEmail size={30}/> yz.zhang.de@gmail.com
           </div>
         </a>
         <br />
         <a href="tel:015254301796" target="_blank">
           {" "}
           <div className="flex items-center gap-3 ">
-            <BsFillTelephoneFill />
+            <BsFillTelephoneFill size={30}/>
             015254301796
           </div>
         </a>
@@ -35,14 +35,14 @@ const ContactForm = () => {
       <a href="https://github.com/yongqi8899" target="_blank">
         {" "}
         <div className="flex items-center gap-3 mt-5">
-          <BsGithub />
+          <BsGithub size={30}/>
           https://github.com/yongqi8899
         </div>
       </a>
       <a href="https://www.linkedin.com/in/yongqi-zhang/" target="_blank">
         {" "}
         <div className="flex items-center gap-3 mt-5">
-          <RxLinkedinLogo />
+          <RxLinkedinLogo size={30}/>
           https://www.linkedin.com/in/yongqi-zhang/
         </div>
       </a>
