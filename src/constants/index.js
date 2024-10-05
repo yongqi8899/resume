@@ -3,22 +3,9 @@ import {
   creator,
   web,
   mobile,
-  javascript,
-  typescript,
-  vue,
-  nuxt,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
   immobilien,
   good_feeling,
   yz,
-  threejs,
   dog_food,
   it,
   music,
@@ -51,67 +38,291 @@ const bio = {
   linkedin: "https://www.linkedin.com/in/yongqi-zhang/",
 };
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Vue JS",
-    icon: vue,
-  },
-  {
-    name: "Nuxt JS",
-    icon: nuxt,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-];
+// const technologies = [
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+//   {
+//     name: "TypeScript",
+//     icon: typescript,
+//   },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+//   {
+//     name: "Vue JS",
+//     icon: vue,
+//   },
+//   {
+//     name: "Nuxt JS",
+//     icon: nuxt,
+//   },
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//   },
+
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+//   {
+//     name: "Three JS",
+//     icon: threejs,
+//   },
+//   {
+//     name: "git",
+//     icon: git,
+//   },
+//   {
+//     name: "figma",
+//     icon: figma,
+//   },
+// ];
+
+const technologies = {
+  frontendTech: [
+    {
+      href: "https://www.javascript.com/",
+      icon: "https://profilinator.rishav.dev/skills-assets/javascript-original.svg",
+      name: "JavaScript",
+    },
+    {
+      href: "https://www.typescriptlang.org/",
+      icon: "https://profilinator.rishav.dev/skills-assets/typescript-original.svg",
+      name: "TypeScript",
+    },
+    {
+      href: "https://threejs.org/",
+      icon: "https://upload.vectorlogo.zone/logos/threejs/images/83129207-9005-4463-8181-65a3cc3bf8fd.svg",
+      name: "threejs",
+    },
+    {
+      href: "https://reactjs.org/",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      name: "react",
+    },
+    {
+      href: "https://nextjs.org/",
+      icon: "https://profilinator.rishav.dev/skills-assets/nextjs.png",
+      name: "NextJS",
+    },
+    {
+      href: "https://nuxt.com/",
+      icon: "https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg",
+      name: "Nuxt",
+    },
+    {
+      href: "https://vuejs.org/",
+      icon: "https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg",
+      name: "vue",
+    },
+    {
+      href: "https://www.w3.org/html/",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+      name: "html5",
+    },
+    {
+      href: "https://www.w3schools.com/css/",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+      name: "css3",
+    },
+    {
+      href: "https://tailwindcss.com/",
+      icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+      name: "tailwind",
+    },
+  ],
+  backendTech: [
+    {
+      href: "https://nodejs.org/",
+      icon: "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg",
+      name: "Node.js",
+    },
+    {
+      href: "https://expressjs.com/",
+      icon: "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg",
+      name: "Express.js",
+    },
+    {
+      href: "https://www.postgresql.org",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      name: "postgresql",
+    },
+    {
+      href: "https://www.sqlite.org/",
+      icon: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
+      name: "sqlite",
+    },
+    {
+      href: "https://www.mongodb.com/",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      name: "mongodb",
+    },
+  ],
+  otherTech: [
+    {
+      href: "https://postman.com",
+      icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      name: "postman",
+    },
+    {
+      href: "https://git-scm.com/",
+      icon: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      name: "git",
+    },
+    {
+      href: "https://www.adobe.com/in/products/illustrator.html",
+      icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/illustrator.svg",
+      name: "illustrator",
+    },
+    {
+      href: "https://www.photoshop.com/en",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/photoshop/photoshop-original.svg",
+      name: "photoshop",
+    },
+    {
+      href: "https://www.adobe.com/products/aftereffects.html",
+      icon: "https://raw.githubusercontent.com/detain/svg-logos/07e36b4aa0691f3015886624395e083395e528c5/svg/a/after-effects-1.svg",
+      name: "after effect",
+    },
+    {
+      href: "https://www.adobe.com/products/premiere.html",
+      icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/premiere.svg",
+      name: "premiere",
+    },
+    {
+      href: "https://www.adobe.com/products/indesign.html",
+      icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/indesign.svg",
+      name: "indesign",
+    },
+    {
+      href: "https://lightroom.adobe.com/",
+      icon: "https://raw.githubusercontent.com/gilbarbara/logos/29e8719bf78915c7a82a26a6c203f53c4cb8fff2/logos/adobe-lightroom.svg",
+      name: "lightroom",
+    },
+    {
+      href: "https://www.blender.org",
+      icon: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/blender.svg",
+      name: "blender",
+    },
+    {
+      href: "https://www.solidworks.com/",
+      icon: "https://iconape.com/wp-content/png_logo_vector/solidworks-logo.png",
+      name: "solidworks",
+    },
+    {
+      href: "https://web.autocad.com/",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/6/6e/AutoCad_new_logo.svg",
+      name: "AutoCad",
+    },
+  ]
+};
+// const backendTech = [
+//   {
+//     href: "https://nodejs.org/",
+//     icon: "https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg",
+//     name: "Node.js",
+//   },
+//   {
+//     href: "https://expressjs.com/",
+//     icon: "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg",
+//     name: "Express.js",
+//   },
+//   {
+//     href: "https://www.postgresql.org",
+//     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+//     name: "postgresql",
+//   },
+//   {
+//     href: "https://www.sqlite.org/",
+//     icon: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg",
+//     name: "sqlite",
+//   },
+//   {
+//     href: "https://www.mongodb.com/",
+//     icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+//     name: "mongodb",
+//   },
+// ];
+// const otherTech = [
+//   {
+//     href: "https://postman.com",
+//     icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+//     name: "postman",
+//   },
+//   {
+//     href: "https://git-scm.com/",
+//     icon: "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+//     name: "git",
+//   },
+//   {
+//     href: "https://www.adobe.com/in/products/illustrator.html",
+//     icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/illustrator.svg",
+//     name: "illustrator",
+//   },
+//   {
+//     href: "https://www.photoshop.com/en",
+//     icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/photoshop/photoshop-original.svg",
+//     name: "photoshop",
+//   },
+//   {
+//     href: "https://www.adobe.com/products/aftereffects.html",
+//     icon: "https://raw.githubusercontent.com/detain/svg-logos/07e36b4aa0691f3015886624395e083395e528c5/svg/a/after-effects-1.svg",
+//     name: "after effect",
+//   },
+//   {
+//     href: "https://www.adobe.com/products/premiere.html",
+//     icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/premiere.svg",
+//     name: "premiere",
+//   },
+//   {
+//     href: "https://www.adobe.com/products/indesign.html",
+//     icon: "https://raw.githubusercontent.com/pheralb/svgl/5c82f5c8ee850fe1ae505978ae50296c9f5a6f29/static/library/indesign.svg",
+//     name: "indesign",
+//   },
+//   {
+//     href: "https://lightroom.adobe.com/",
+//     icon: "https://raw.githubusercontent.com/gilbarbara/logos/29e8719bf78915c7a82a26a6c203f53c4cb8fff2/logos/adobe-lightroom.svg",
+//     name: "lightroom",
+//   },
+//   {
+//     href: "https://www.blender.org",
+//     icon: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/blender.svg",
+//     name: "blender",
+//   },
+//   {
+//     href: "https://www.solidworks.com/",
+//     icon: "https://iconape.com/wp-content/png_logo_vector/solidworks-logo.png",
+//     name: "solidworks",
+//   },
+//   {
+//     href: "https://web.autocad.com/",
+//     icon: "https://upload.wikimedia.org/wikipedia/commons/6/6e/AutoCad_new_logo.svg",
+//     name: "AutoCad",
+//   },
+// ];
 
 const projects = [
   {
     name: "portfolio",
     description:
-    "This is my portfolio website, built using React and Three.js. It showcases my skills and expertise in web development.",
-       tags: [
+      "This is my portfolio website, built using React and Three.js. It showcases my skills and expertise in web development.",
+    tags: [
       {
         name: "react",
         color: "blue-text-gradient",
