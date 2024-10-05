@@ -24,7 +24,7 @@ const ProjectCard = ({ name, tags, image, source_code_link, deploy_link }) => {
           {source_code_link && (
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+              className="flex items-center justify-center w-10 h-10 text-white rounded-full cursor-pointer black-gradient"
             >
               <BsGithub size={40} />
             </div>
@@ -32,7 +32,7 @@ const ProjectCard = ({ name, tags, image, source_code_link, deploy_link }) => {
           {deploy_link && (
             <div
               onClick={() => window.open(deploy_link, "_blank")}
-              className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
+              className="flex items-center justify-center w-10 h-10 text-white rounded-full cursor-pointer black-gradient"
             >
               <IoEarthOutline size={40} />
             </div>
