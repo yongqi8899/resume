@@ -1,4 +1,3 @@
-import rotation from "./rotation.svg";
 import dog_food from "./dog_food.gif";
 import it from "./it.gif";
 import music from "./music.gif";
@@ -20,6 +19,5 @@ export {
   good_feeling,
   portfolio,
   yz,
-  rotation,
   me
 };

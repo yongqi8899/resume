@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 import { styles } from "@/styles";
 import ComMe from "@/components/page-home/cpns/ComMe.jsx";
-
+import { Md3dRotation } from "react-icons/md";
 import Typewriter from "typewriter-effect";
-import { rotation } from "@/assets";
 import { fadeIn } from "@/utils/motion.js";
-
-import { useTranslation } from "react-i18next";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -56,7 +55,7 @@ const Hero = () => {
           <ComMe />
         </div>
         <div className="absolute top-20 left-10 z-1 h-2rem">
-          <img src={rotation} alt="rotation"></img>
+          <Md3dRotation className="w-10 h-10 text-[#915EFF]" />
         </div>
       </div>
     </section>
