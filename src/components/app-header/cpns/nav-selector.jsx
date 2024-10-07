@@ -2,10 +2,7 @@ import { NavLink } from "react-router-dom";
 import { navLinks } from "@/constants/index.js";
 import { memo } from "react";
 import { useTranslation } from "react-i18next";
-import {
-  FaHome,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import { BsPalette } from "react-icons/bs";
 import { SiHyperskill } from "react-icons/si";
 
@@ -32,7 +29,9 @@ const NavSelector = memo(() => {
           <NavLink
             to={link.path}
             className={({ isActive }) =>
-              `${isActive ? "text-secondary" : ""} text-xl btn btn-ghost flex flex-col items-center`
+              `${
+                isActive ? "text-secondary" : ""
+              } text-xl btn btn-ghost flex flex-col items-center`
             }
           >
             {getIcon(link.icon)}

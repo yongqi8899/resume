@@ -25,13 +25,12 @@ const LanguageSelector = () => {
       >
         <GrLanguage size={30}/>
       </button>
-
       {isOpen && (
-        <div className="absolute z-50 p-2 mt-2 bg-neutral">
+        <div className="absolute z-50 p-2 mt-2 transform -translate-x-1/2 left-1/2 bg-neutral">
           {Object.keys(lngs).map((lng) => (
             <button
               key={lng}
-              className={`block w-full text-left px-4 py-2 ${
+              className={` block  w-full text-left px-4 py-2 ${
                 i18n.resolvedLanguage === lng ? "font-bold text-secondary" : "font-normal "
               }`}
               onClick={() => handleLanguageChange(lng)}

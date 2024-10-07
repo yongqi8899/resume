@@ -7,7 +7,7 @@ import NavSelector from "@/components/app-header/cpns/nav-selector";
 
 const Header = memo(() => {
   return (
-    <header className="fixed top-0 z-50 text-xl navbar bold">
+    <header className="fixed top-0 z-50 text-xl navbar bold bg-neutral">
       <div className="flex-1 text-4xl ">
         <LogoSelector />
       </div>

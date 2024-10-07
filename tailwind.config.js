@@ -21,7 +21,7 @@ export default {
           secondary: "#EFB51F",
           neutral: "#040816", //background color
           "base-content": "white", //Text color
-          // background: "url('/src/assets/herobg.png')",
+          background: "url('/src/assets/herobg.png')",
         },
         light: {
           ...themes.light,
@@ -30,7 +30,7 @@ export default {
           secondary: "#0BBAB5",
           neutral: "#E6F0ED",
           "base-content": "#016D48",
-          background: "#FFFFFF",
+          background: "#E6F0ED",
         },
       },
     ],
