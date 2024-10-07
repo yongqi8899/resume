@@ -24,7 +24,7 @@ const Projects = memo(() => {
         <p>{t("projects.summary")}</p>
       </div>
 
-      <div className="grid w-full gap-4 mx-auto justify-items-center md:grid-cols-3">
+      <div className="grid w-full gap-4 mx-auto mt-6 justify-items-center md:grid-cols-3">
         {projects.map((project, index) => (
           <TiltCard key={`project-${index}`}>
             <div className="group">
