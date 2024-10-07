@@ -1,7 +1,4 @@
 import {
-  immobilien,
-  good_feeling,
-  yz,
   dog_food,
   it,
   music,
@@ -12,32 +9,11 @@ import {
 
 const navLinks = [
   {
-    id: "CV",
-    title: "CV",
-    path: "https://drive.google.com/file/d/1GiFE2E8CqymL9VI-S9CReX6XQD7e8ou3/view?usp=drive_link",
-    target: true,
-    icon: "CV",
-  },
-  {
-    id: "LinkedIn",
-    title: "LinkedIn",
-    path: "https://www.linkedin.com/in/yongqi-zhang/",
-    target: true,
-    icon: "linkedin",
-  },
-  {
-    id: "github",
-    title: "github",
-    path: "https://github.com/yongqi8899",
-    target: true,
-    icon: "github",
-  },
-  {
     id: "skills",
     title: "skills",
     path:"/skills",
     target: false,
-    icone: "skills",
+    icon: "skills",
   },
   {
     id: "projects",

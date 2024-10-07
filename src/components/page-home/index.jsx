@@ -1,21 +1,20 @@
-import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
-import { styles } from "@/styles";
-import ComMe from "@/components/page-home/cpns/ComMe.jsx";
 import { Md3dRotation } from "react-icons/md";
-import Typewriter from "typewriter-effect";
-import { fadeIn } from "@/utils/motion.js";
-import NavSelector from "@/components/app-header/cpns/nav-selector.jsx";
+import About from "@/components/page-home/cpns/about.jsx";
+import ComMe from "@/components/page-home/cpns/me.jsx";
 
 const Hero = () => {
-  const { t } = useTranslation();
   return (
-    <section className="w-screen h-screen ">
-      <div >
-        <NavSelector />
-      </div>
-      <div className="w-screen h-screen">
-        <ComMe /> 
+    <section
+      className={`flex flex-col items-center  md:flex-row w-full min-h-screen  m-auto md:justify-evenly md:items-center `}
+    >
+      <About />
+      <div className="relative z-20 flex flex-col w-full h-screen">
+        <div className="min-w-[400px] min-h-[400px] h-full touch-auto">
+          <ComMe />
+        </div>
+        <div className="absolute top-20 left-10 z-1 h-2rem">
+          <Md3dRotation className="w-10 h-10 text-[#915EFF]" />
+        </div>
       </div>
     </section>
   );

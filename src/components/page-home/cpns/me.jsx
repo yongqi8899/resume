@@ -13,7 +13,6 @@ const ComMe = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
-   <div className="w-full h-full ">
      <Canvas
       camera={{
         fov: 30,
@@ -48,7 +47,6 @@ const ComMe = () => {
         </group>
       </Suspense>
     </Canvas>
-   </div>
   );
 };
 export default ComMe;
