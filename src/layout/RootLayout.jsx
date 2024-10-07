@@ -9,18 +9,18 @@ import "react-toastify/dist/ReactToastify.min.css";
 const RootLayout = memo(() => {
   return (
     <>
-      <div className="hidden md:block">
+      {/* <div className="hidden md:block">
         <Header />
       </div>
       <div className="block md:hidden">
         <NavMobil />
-      </div>
+      </div> */}
 
       <ToastContainer position="top-right" autoClose={1500} theme="light" />
-      <div className="container px-10 m-auto mt-32 mb-20 md:px-0">
+      <div >
         <Outlet />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 });

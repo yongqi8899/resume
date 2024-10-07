@@ -6,6 +6,9 @@
     "profile": "profile",
     "navLinks": {
       "home": "Startseite",
+      "CV":"Lebenslauf",
+      "LinkedIn":"LinkedIn",
+      "github":"github",
       "skills": "Fähigkeiten",
       "projects": "Projekte",
       "contact": "Kontakt"
