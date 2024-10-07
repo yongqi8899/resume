@@ -4,7 +4,7 @@ import { Tilt } from "react-tilt";
 import { fadeIn } from "@/utils/motion.js";
 import { technologies } from "@/constants";
 
-const Tech = () => (
+const Tech = memo(() => (
   <div className="grid w-full gap-4 mx-auto justify-items-center md:grid-cols-3">
 
     {technologies &&
@@ -30,11 +30,10 @@ const Tech = () => (
               </h2>{" "}
               <div className="flex flex-wrap justify-center gap-4">
                 {technologies[key].map((tech) => (
-                  <div className="bg-white">
+                  <div className="bg-white" key={tech.name}>
                   <img
                     src={tech.icon}
-                    alt={tech.title}
-                    key={tech.title}
+                    alt={tech.name}
                     className="object-contain w-16 h-16"
                   />
                   </div>
@@ -45,5 +44,5 @@ const Tech = () => (
         </Tilt>
       ))}
   </div>
-);
+));
 export default Tech;
