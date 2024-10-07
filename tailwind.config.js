@@ -30,7 +30,7 @@ export default {
           secondary: "#0BBAB5",
           neutral: "#E6F0ED",
           "base-content": "#016D48",
-          background: "#E6F0ED",
+          background: "#F8FCFB",
         },
       },
     ],
