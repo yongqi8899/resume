@@ -37,7 +37,7 @@ const About = () => {
       }
       <div className="mt-10 ">
         <Link
-          to="https://drive.google.com/file/d/1e-gofJnmOP8PNmqduIcgPeIxLuM5n9qF/view?usp=drive_link"
+          to="https://drive.google.com/file/d/1wB09Nek5DuhneyCER63G2zKx-yVV1Ub2/view?usp=drive_link"
           target="_blank"
           className="px-6 py-2 text-lg font-bold border border-violet-500 violet-gradient rounded-xl hover:bg-violet-500 hover:text-white"
         >
